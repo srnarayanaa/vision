@@ -110,3 +110,42 @@ nav a:hover {
 .nav-item.dropdown:hover .dropdown-content {
   display: block;
 }
+
+
+.typewriter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  text-align: center;
+}
+
+.typewriter-text {
+  font-size: 24px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typing 8s steps(40, end) forwards;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: 50;
+  width: 50;
+}
